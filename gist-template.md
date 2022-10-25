@@ -47,8 +47,41 @@ Examples:
 ![image showing mach any text RegEx](./assets/images/anchor-5.png)
 
 ### Quantifiers
+The purpose of the Quantifiers is to specify how many instances of a character or a group must be present in an input text for a match.
+
+Examples:
+
+**```xyz*```** - matches a string that has **xy followed by zero or more z**.
+![image of quantifier that matches xy followed by zero or more c](./assets/images/quantifier-1.png)
+
+**```xyz+```** - matches a string that has **xy followed by one or more z**.
+![image of quantifier that matches xy followed by one or more c](./assets/images/quantifier-2.png)
+
+**```xyz?```** - matches a string that has **xy followed by zero or one z**.
+![image of quantifier that matches xy followed by zero or one z](./assets/images/quantifier-3.png)
+
+**```xyz{2}```** - matches a string that has **xy followed by 2 z**.
+![image of quantifier that matches a string that has xy followed by 2 z](./assets/images/quantifier-4.png)
+
+**```xyz{2,}```** - matches a string that has **xy followed by 2 or more z**.
+![image of quantifier that matches a string that has xy followed by 2 or more z](./assets/images/quantifier-5.png)
+
+**```xyz{2,5}```** - matches a string that has **xy followed by 2 up to 5 z**.
+![image of quantifier that matches a string that has xy followed by 2 up to 5 z](./assets/images/quantifier-6.png)
+
+**```x(yz)*```** - matches a string that has **x followed by zero or more copies of the sequence yz**.
+![image of quantifier that matches a string that has x followed by zero or more copies of the sequence yz](./assets/images/quantifier-7.png)
 
 ### OR Operator
+The Or operator ```|``` or ```[]``` is used to pick from two choices.
+
+Examples:
+
+**```x(y|z)```** - matches a string that has **x followed by y or z**.
+![image of the or operator that matches a string that has a x followed by y or z](./assets/images/or-1.png)
+
+**```x[yz]```** - matches a string that has **x followed by y or z from the list**
+![image of the or operator that matches a string that has a x followed by a y or z from the list](./assets/images/or-2.png)
 
 ### Character Classes
 
