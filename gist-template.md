@@ -108,6 +108,18 @@ Flags are accessor properties that changes how a search is conducted on a given 
 * **```i```** (insensitive) makes the RegEx case insensitive.
 
 ### Grouping and Capturing
+Grouping is a way to keeping a set of characters together
+
+Examples:
+
+**```x(yz)```** - the paranthesis creates a **capturing group with the value of yz**. All the matching results are stored in an array and can be accesse using the index value.
+![image of the grouped yz character](./assets/images/grouping-1.png)
+
+**```x(?:yz)```** - creates a **non-capturing group**
+![image of the non-captured group](./assets/images/grouping-2.png)
+
+**```x(?<hi>yz)```** - creates a name for the captured group. It can later be accessed like a dictionary using the name.
+![image of the named captured group](./assets/images/grouping-3.png)
 
 ### Bracket Expressions
 
