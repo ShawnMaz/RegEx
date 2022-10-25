@@ -84,8 +84,28 @@ Examples:
 ![image of the or operator that matches a string that has a x followed by a y or z from the list](./assets/images/or-2.png)
 
 ### Character Classes
+Character classes defines a set of character that when present in an input string results in a match.
+
+**```\d```** - matches a **single character** that is a **digit**.
+![image of the digit class](./assets/images/character%20class-1.png)
+
+**```\w```** - matches a **word character** (alphanumeric character plus underscore).
+![image of the word class](./assets/images/character%20class-2.png)
+
+**```\s```** - matches a **whitespace character** (includes tabs)
+![image of the whitespace class](./assets/images/character%20class-3.png)
+
+**```.```** - matches **any character**. Use this class carfully. Often class or negated character class are faster and more precise.
+![image of the any character class](./assets/images/character%20class-4.png)
+
+```\d```, ```\w``` and ```\s``` have negated class which are ```\D```, ```\W``` and ```\S``` respectively.
 
 ### Flags
+Flags are accessor properties that changes how a search is conducted on a given string.
+
+* **```g```** (global) restarts the search from the end of the previous match instead of stopping after the frst match.
+* **```m```** (multi-line) allows the ```^``` and the ```$``` anchors to use start and the end of a line, instead of the whole string.
+* **```i```** (insensitive) makes the RegEx case insensitive.
 
 ### Grouping and Capturing
 
