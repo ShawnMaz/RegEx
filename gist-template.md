@@ -122,6 +122,21 @@ Examples:
 ![image of the named captured group](./assets/images/grouping-3.png)
 
 ### Bracket Expressions
+Bracket expression lets you find a match by putting the conditions inside the brackets.
+
+Examples:
+
+**```[xyz]```** - matches a string that is **x or y or z**. It is the **same as a|b|c**. This expression can also be written as ```[x-z]```.
+![image of the brackets expression xyz which is the same as the or notation](./assets/images/bracket-1.png)
+
+**```[a-fA-F0-9]```** - case insensitive match for a **single hexadecimal digit**.
+![image for finding the hexadecimal numbers using the brackets notation](./assets/images/bracket-2.png)
+
+**```[0-9]%```** - matches a string of characters **from 0 to 9 before a % sign**
+![image of the bracket expression which find the character 0 to 9 if it appears infront of a % symbol](./assets/images/bracket-3.png)
+
+**```[^a-zA-Z]```** - matches all chracters that **are not upper and lower case characters**.
+![image of the negation of expression](./assets/images/bracket-4.png)
 
 ### Greedy and Lazy Match
 
