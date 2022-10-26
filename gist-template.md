@@ -100,7 +100,7 @@ Character classes defines a set of character that when present in an input strin
 **```\s```** - matches a **whitespace character** (includes tabs)
 ![image of the whitespace class](./assets/images/character%20class-3.png)
 
-**```.```** - matches **any character**. Use this class carfully. Often class or negated character class are faster and more precise.
+**```.```** - matches **any character**. Use this class carefully. Often class or negated character class are faster and more precise.
 ![image of the any character class](./assets/images/character%20class-4.png)
 
 ```\d```, ```\w``` and ```\s``` have negated class which are ```\D```, ```\W``` and ```\S``` respectively.
@@ -113,7 +113,7 @@ Flags are accessor properties that changes how a search is conducted on a given 
 * **```i```** (insensitive) makes the RegEx case insensitive.
 
 ### Grouping and Capturing
-Grouping is a way to keeping a set of characters together
+Grouping is a way of keeping a set of characters together.
 
 Examples:
 
