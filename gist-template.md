@@ -4,9 +4,16 @@ Regular Expressions or RegEx or RegExp help extract specific information from a 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this section we are going to take a look at and example of how to validate an email address.
 
+Matching an email address can be done like the following:
 
+            /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+
+Here is an example of the email validator in use:
+![Example uses of the email validator](./assets/images/regex-1.png)
+
+Detailed explanation of the components used in the RegEx above and more are given below.
 
 ## Table of Contents
 
