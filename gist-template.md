@@ -19,8 +19,6 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
@@ -158,10 +156,7 @@ There are 3 different positions that qualify as word boundaries:
 The following image shows an example:
 ![an image showing the word boundary](./assets/images/boundaries-1.png)
 
-### Back-references
-
-### Look-ahead and Look-behind
-
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+For any questions about the Gist, please don't hesitate to reach out.
+* Link to my Github page : [ShawnMaz](https://github.com/ShawnMaz)
+* Email: [shawnmaz@pm.me](mailto:shawnmaz@pm.me)
