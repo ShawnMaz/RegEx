@@ -148,7 +148,15 @@ In the lazy mode ```?``` is added after a quantifier to specify that lazy mode i
 Click [here](https://javascript.info/regexp-greedy-and-lazy) for a more detailed explanation to Greedy and Lazy match.
 
 ### Boundaries
+A word boundary ```\b``` is similar to ```^``` and ```$```, in that the RegEx engine checks that the position in the string is a word boundary.
 
+There are 3 different positions that qualify as word boundaries:
+* At the start of a string, if the first string character is a word ```\w```.
+* Between two characters in the string, where one is a word character ```\w``` and the other is not.
+* At the end of the string, if the last string character is a word character ```\w```.
+
+The following image shows an example:
+![an image showing the word boundary](./assets/images/boundaries-1.png)
 
 ### Back-references
 
