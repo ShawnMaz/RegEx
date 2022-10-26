@@ -139,8 +139,16 @@ Examples:
 ![image of the negation of expression](./assets/images/bracket-4.png)
 
 ### Greedy and Lazy Match
+Greedy and Lazy match are two different ways a search is performed. The greedy mode is the default mode.
+
+In a greedy mode the search is repeated as many times as possible without trying to match the rest of the pattern until the end of the text being searched through. After which the search checks the pattern and starts to backtrack until the end condition has been meet.
+
+In the lazy mode ```?``` is added after a quantifier to specify that lazy mode is being activated. After every character match, the rest of the pattern is checked to see if they match as well.
+
+Click [here](https://javascript.info/regexp-greedy-and-lazy) for a more detailed explanation to Greedy and Lazy match.
 
 ### Boundaries
+
 
 ### Back-references
 
